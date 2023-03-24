@@ -1,62 +1,35 @@
 {
-    "name": "CEO",
+    "name": "Title",
     "children": [
       {
-        "name": "Manager",
+        "name": "Tabname",
         "attributes": {
-          "department": "Production"
+          "link": "www.google.com",
+          "info": "Production"
         },
         "children": [
           {
-            "name": "Foreman",
+            "name": "new name",
             "attributes": {
-              "department": "Fabrication"
-            },
-            "children": [
-              {
-                "name": "Workers"
-              }
-            ]
+              "link": "www.google.com",
+          "info": "Production"
+            }
           },
           {
-            "name": "Foreman",
+            "name": "my name",
             "attributes": {
-              "department": "Assembly"
+              "link": "www.google.com",
+          "info": "Production"
             },
             "children": [
-              {
-                "name": "Workers"
-              }
-            ]
-          }
-        ]
-      },
-      {
-        "name": "Manager",
-        "attributes": {
-          "department": "Marketing"
-        },
-        "children": [
-          {
-            "name": "Sales Officer",
-            "attributes": {
-              "department": "A"
-            },
-            "children": [
-              {
-                "name": "Salespeople"
-              }
-            ]
-          },
-          {
-            "name": "Sales Officer",
-            "attributes": {
-              "department": "B"
-            },
-            "children": [
-              {
-                "name": "Salespeople"
-              }
+              { "name": "name",
+                "link": "www.google.com",
+          "info": "Production"
+              },
+              { "name": "name",
+              "link": "www.google.com",
+        "info": "Production"
+            }
             ]
           }
         ]
